@@ -1,7 +1,8 @@
 # Fundamentos da estatística
-- [test 1](####_2.2.3_Moda)
-- [test 2](####_223_Moda)
-- [test 2](####_2)
+- [test 1](####2.2.3-moda)
+- [test 1](####-2.2.3-moda)
+- [test 1](####223-moda)
+- [test 1](####-223-moda)
 
 <ul styles="">
     <li></li>
