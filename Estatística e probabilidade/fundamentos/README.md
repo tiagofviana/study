@@ -1,65 +1,63 @@
 # Fundamentos da estatística
+- [test 1](####_2.2.3_Moda)
+- [test 2](####_223_Moda)
+- [test 2](####_2)
 
-Sumário:
+<ul styles="">
+    <li></li>
+</ul>
 
-## Tipos de variáveis
+## 1.Tipos de variáveis
 - Qualitativa 
 - Quantitavida
 
-### Qualitativa
+### 1.1 Qualitativa
 
-    > Variáveis que atributem categorias ou classificações
+> **DEFINIÇÃO:** Variáveis que atributem categorias ou classificações
 
-    Exemplos:
-    - Escala Likert
-    - Estado civil
-    - Cor do verículo
-    - Faixa de renda*
+Exemplos:
+- Escala Likert
+- Estado civil
+- Cor do verículo
+- Faixa de renda*
     
-### Quantitavidas
+### 1.2 Quantitavidas
 
-    > Variáveis que atributem contagem ou mensuração
+> **DEFINIÇÃO:**Variáveis que atributem contagem ou mensuração
     
-    Exemplos:
-    - Idade (anos)
-    - Peso (kg)
-    - Temperatura
-    - Renda (R$)
+Exemplos:
+- Idade (anos)
+- Peso (kg)
+- Temperatura
+- Renda (R$)
     
-## Estatística descritiva ou análise exploratória
+## 2 Estatística descritiva ou análise exploratória
 
-### 1. Tabela de frequência
+### 2.1 Tabela de frequência
 - Frequência absolute
 - Frequência relativa
 - Frequência absolute acumulada
 - Frequência relativa acumulada
 
-<br>
 
-    Frequência absolute
+#### 2.1.1 Frequência absolute
+> **DEFINIÇÃO:** contagem da ocorrência de cada categoria.
 
-    > contagem da ocorrência de cada categoria.
-<br>
+#### 2.1.2 Frequência relativa
 
-    Frequência relativa
+> **DEFINIÇÃO:** percentual de cada categoria em relação ao total de observaões.
 
-    > percentual de cada categoria em relação ao total de observaões.
+#### 2.1.3 Frequência absolute acumulada
 
-<br>
-
-    Frequência absolute acumulada
-
-    > soma da frequência absoluta a cada nova categoria.
+> **DEFINIÇÃO:** soma da frequência absoluta a cada nova categoria.
 
 
-<br>
+#### 2.1.4 Frequência relativa acumulada
 
-    Frequência relativa acumulada
-
-    > soma da frequência relativa a cada nova categoria.
+> **DEFINIÇÃO:** soma da frequência relativa a cada nova categoria.
 
 
-### 2. Medidas de posição
+### 2.2 Medidas de posição
 
 - Média
 - Mediana
@@ -68,44 +66,43 @@ Sumário:
 - Quartis
 - Decis
 
-<br>
 
-    Média
+#### 2.2.1 Média
 
-    > média da variável
+> **DEFINIÇÃO:** média da variável
 
 Fórmula:
-$$
+
+```math
     Média = \frac{1}{n} \sum_{i=1}^{n} x_i
-$$
+```
 
 - _n_ é o número de elementos.
 - _xi_ são os valores individuais.
 
-<br>
 
-    Mediana
+#### 2.2.2 Mediana
 
-    > é o valor central da sequência em ordem crescente.
+> **DEFINIÇÃO:** é o valor central da sequência em ordem crescente.
 
 Fórmula para número ímpar de elementos:
-$$
+
+```math
     Mediana = \frac{n+1}{2}
-$$
+```
 - _n_ é o número total de elementos.
 
 Fórmula para número par de elementos:
-$$
+
+```math
     Mediana= \frac{x_{\frac{n}{2}} + x_{\frac{n}{2}+1}}{2}
-$$
+```
 
 - É a média dos dois valores centrais.
 
 
-<br>
+#### 2.2.3 Moda
 
-    Moda
+> **DEFINIÇÃO:** é o valor com a maior frequência absoluta.
 
-    > é o valor com a maior frequência absoluta.
-
-    > A moda só pode ser calculada para dados qualitativos. Caso nenhum valor se repita, existirá a moda.
+> **Importante:** A moda só pode ser calculada para dados qualitativos. Caso nenhum valor se repita, existirá a moda.
