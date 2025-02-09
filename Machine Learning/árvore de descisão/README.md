@@ -39,15 +39,16 @@ Quanto maior a entropia, mais heterogêneo é o conjunto de dados, ou serja, as 
 Quando você está construindo uma árvore de decisão, o objetivo é minimizar o índice de Gini ao dividir os dados nos nós. Isso significa que, para cada divisão, você escolhe o atributo que resulta na menor impureza (ou Gini) nos nós filhos. Isso ajuda a criar grupos mais homogêneos em termos de classe.
 
 Formula:
-$$
+```math
     Gini(D) = 1 - \sum_{i=1}^{c} p_i^2
-$$
+```
 
 - _D_ é o conjunto de dados no nó.
 - _c_ é o número de classes.
 - _pi_ é a proporção de elementos da classe _i_ no nó _D_.
 
 #### Passos para calcular o Gini:
+
 1. Para cada classe _i_ no nó, calcule a proporção _pi_ da classe no conjunto de dados _D_.
 
 2. Eleve _pi_ ao quadrado.
@@ -65,9 +66,9 @@ Suponha que temos um nó com 10 amostras, e as classes são "A" e "B". Das 10 am
 
 Math block:
 
-$$
+```math
     Gini(D) = 1 - (p_A^2 + p_B^2) = 0.48
-$$
+```
 
 ### Redução da variância
 Usando na regressão, avalia como a variância dos dados é reduzida após a divisão. Quanto menor a variância, mais homogêneo é o grupo.
