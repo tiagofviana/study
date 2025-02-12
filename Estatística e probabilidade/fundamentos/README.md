@@ -1,9 +1,10 @@
 # Fundamentos da estatística
-- [1.Tipos de variáveis](#1tipos-de-variáveis)
+Sumário:
+- [1. Tipos de variáveis](#1-tipos-de-variáveis)
 - [2. Estatística descritiva ou análise exploratória](#2-estatística-descritiva-ou-análise-exploratória)
 
 
-## 1.Tipos de variáveis
+## 1. Tipos de variáveis
 - [1.1 Qualitativa](#11-qualitativa)
 - [1.2 Quantitativa](#12-quantitativa)
 
@@ -19,7 +20,7 @@ Exemplos:
     
 ### 1.2 Quantitativa
 
-> **DEFINIÇÃO:**Variáveis que atributem contagem ou mensuração
+> **DEFINIÇÃO:** Variáveis que atributem contagem ou mensuração
     
 Exemplos:
 - Idade (anos)

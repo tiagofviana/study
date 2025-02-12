@@ -1,54 +1,55 @@
 # Machine learning (aprendizando de máquina)
-É um ramo da Inteligência Artificial (IA) que envolve a construção de modelos matemáticos (modelos preditivos, ou seja, um previsão) para entender dados. IA é definido como o estudo dos agentes que recebem percepçõs do ambiente e perfomam uma ação. 
+> **DEFINIÇÃO:** É um ramo da Inteligência Artificial (IA) que envolve a construção de modelos matemáticos (modelos preditivos, ou seja, um previsão) para entender dados. IA é definido como o estudo dos agentes que recebem percepçõs do ambiente e perfomam uma ação. 
+
+Sumário:
+- [1. Paradigmas](#1-paradigmas)
+- [2. Tabela](#2-tabela)
+
+## 1. Paradigmas
+- [1.1 Aprendizado supervisionado](#11-aprendizado-supervisionado)
+- [1.2 Aprendizado não supervisionado](#12-aprendizado-não-supervisionado)
+- [1.3 Aprendizado por reforço](#12-aprendizado-por-reforço)
+- [1.4 Aprendizado semi-supervisionado](#12-aprendizado-semi-supervisionado)
+- [1.5 Aprendizado auto-supervisionado](#12-aprendizado-auto-supervisionado)
 
 
-## Paradigmas
-- Aprendizado supervisionado
-- Aprendizado não supervisionado
-- Aprendizado por reforço
-- Aprendizado semi-supervisionado
-- Aprendizado auto-supervisionado
+### 1.1 Aprendizado supervisionado
+
+> **DEFINIÇÃO:** Quando modelo é treinado com dados rotulados, ou seja, para cada entrada, existe uma saída conhecida (rótulo). O objetivo é aprender uma função que, dada uma nova entrada, consiga prever a saída correta.
+
+#### 1.1.1 Tipos
+
+- [1.1.1.1 Classificação](#1111-classificação)
+- [1.1.1.2 Regressão](#1112-regressão)
 
 
-### Aprendizado supervisionado  (Supervised Learning)
+##### 1.1.1.1 Classificação
+> **DEFINIÇÃO:** Quando se trabalha com váriaveis do tipo qualitativa.
 
-O modelo é treinado com dados rotulados, ou seja, para cada entrada, existe uma saída conhecida (rótulo). O objetivo é aprender uma função que, dada uma nova entrada, consiga prever a saída correta.
+Exemplo: 
+- quando se trabalha com  identificar se uma imagem é de um gato ou cachorro.
 
-### Tipos
-    Classificação 
+##### 1.1.1.1 Regressão
 
-    > quando se trabalha com váriaveis do tipo qualitativa.
+> **DEFINIÇÃO:** Quando se trabalha com váriaveis do tipo quantitativas.
 
-    Exemplo: 
-    - quando se trabalha com  identificar se uma imagem é de um gato ou cachorro.
-
-<br>
-
-    Regressão
-
-    > váriaveis do tipo quantitativas.
-
-    Exemplo:
-        - prever o preço de uma casa com base em suas características.
+Exemplo:
+- prever o preço de uma casa com base em suas características.
 
 
-### Algoritmos:
+### 1.1.2 Algoritmos:
 
 - Árvore de decisão
 - Regressão linear
 - Máquinas de vetor de suporte (SVM)
 
-## Tabela
+## 2. Tabela
 
-Cada paradigma é adequado para tipos específicos de problemas e tipos de dados. 
-
-O **aprendizado supervisionado** é frequentemente usado quando você tem rótulos disponíveis
-
-O **aprendizado não supervisionado** é útil quando você está tentando explorar dados sem um alvo explícito.
-
-O **aprendizado por reforço** é ideal para problemas de decisão sequencial.
-
-O **aprendizado semi-supervisionado e auto-supervisionado** se tornam úteis quando há poucos dados rotulados disponíveis.
+- Cada paradigma é adequado para tipos específicos de problemas e tipos de dados. 
+- O [aprendizado supervisionado](#11-aprendizado-supervisionado) é frequentemente usado quando você tem rótulos disponíveis
+- O [aprendizado não supervisionado](#12-aprendizado-não-supervisionado) é útil quando você está tentando explorar dados sem um alvo explícito.
+- O [aprendizado por reforço](#12-aprendizado-por-reforço) é ideal para problemas de decisão sequencial.
+- O [aprendizado semi-supervisionado](#12-aprendizado-semi-supervisionado) e [aprendizado auto-supervisionado](#12-aprendizado-auto-supervisionado) se tornam úteis quando há poucos dados rotulados disponíveis.
 
 <table>
     <tr>
