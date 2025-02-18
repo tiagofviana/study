@@ -1,11 +1,13 @@
 # Machine learning (aprendizando de máquina)
+- [1. Introdução](#1-introdução)
+- [2. Paradigmas](#2-paradigmas)
+- [3. Tabela](#3-tabela)
+
+## 1. Introdução
 > **DEFINIÇÃO:** É um ramo da Inteligência Artificial (IA) que envolve a construção de modelos matemáticos (modelos preditivos, ou seja, um previsão) para entender dados. IA é definido como o estudo dos agentes que recebem percepçõs do ambiente e perfomam uma ação. 
 
-Sumário:
-- [1. Paradigmas](#1-paradigmas)
-- [2. Tabela](#2-tabela)
 
-## 1. Paradigmas
+## 2. Paradigmas
 - [1.1 Aprendizado supervisionado](#11-aprendizado-supervisionado)
 - [1.2 Aprendizado não supervisionado](#12-aprendizado-não-supervisionado)
 - [1.3 Aprendizado por reforço](#12-aprendizado-por-reforço)
@@ -13,23 +15,23 @@ Sumário:
 - [1.5 Aprendizado auto-supervisionado](#12-aprendizado-auto-supervisionado)
 
 
-### 1.1 Aprendizado supervisionado
+### 2.1 Aprendizado supervisionado
 
 > **DEFINIÇÃO:** Quando modelo é treinado com dados rotulados, ou seja, para cada entrada, existe uma saída conhecida (rótulo). O objetivo é aprender uma função que, dada uma nova entrada, consiga prever a saída correta.
 
-#### 1.1.1 Tipos
+#### 2.1.1 Tipos
 
 - [1.1.1.1 Classificação](#1111-classificação)
 - [1.1.1.2 Regressão](#1112-regressão)
 
 
-##### 1.1.1.1 Classificação
+##### 2.1.1.1 Classificação
 > **DEFINIÇÃO:** Quando se trabalha com váriaveis do tipo qualitativa.
 
 Exemplo: 
 - quando se trabalha com  identificar se uma imagem é de um gato ou cachorro.
 
-##### 1.1.1.1 Regressão
+##### 2.1.1.1 Regressão
 
 > **DEFINIÇÃO:** Quando se trabalha com váriaveis do tipo quantitativas.
 
@@ -37,13 +39,13 @@ Exemplo:
 - prever o preço de uma casa com base em suas características.
 
 
-### 1.1.2 Algoritmos:
+### 2.1.2 Algoritmos:
 
 - Árvore de decisão
 - Regressão linear
 - Máquinas de vetor de suporte (SVM)
 
-## 2. Tabela
+## 3. Tabela
 
 - Cada paradigma é adequado para tipos específicos de problemas e tipos de dados. 
 - O [aprendizado supervisionado](#11-aprendizado-supervisionado) é frequentemente usado quando você tem rótulos disponíveis

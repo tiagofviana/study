@@ -1,0 +1,25 @@
+{
+    "editor.fontSize": 18,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+    },
+    "python.defaultInterpreterPath": "venv\\Scripts\\python.exe",
+    "python.envFile": "src\\.env",
+    "scm.inputFontSize": 16,
+    "workbench.tree.indent": 28,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.visible": true,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 100,
+    "svg.preview.mode": "svg",
+    "explorer.confirmDelete": true,
+    "editor.detectIndentation": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.autoReveal": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.configPath": "prettier.config.js"
+}
