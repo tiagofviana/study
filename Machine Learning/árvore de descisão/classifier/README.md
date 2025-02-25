@@ -87,8 +87,6 @@ Alguns dos principais hiperparâmetros que podem ser ajustados para controlar a 
 5. Poda (Pruning)
 
 ## 3. Algoritmos
-
-### Classificação
 Será utilziado o python. Segue abaixo o comando das para instalar as ferramentas utilizadas:
 
 ```sh

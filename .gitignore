@@ -10,3 +10,6 @@
 
 # Python cache directory
 **/__pycache__
+
+# JSON test files
+**/t.json
