@@ -23,7 +23,7 @@ Código: [./bootstrapping.py](./bootstrapping.py)
 ### 2.2 Boosting
 > **DEFINIÇÃO:** treina modelos de forma sequencial, onde cada novo modelo tenta corrigir os erros cometidos pelos modelos anteriores.
 
-A ideia é que modelos mais fracos podem ser combinados para formar um modelo mais forte, corrigindo as falhas de predições anteriores. Um exemplo é o **Gradient Boosting**.
+A ideia é que modelos mais fracos podem ser combinados para formar um modelo mais forte, corrigindo as falhas de predições anteriores. Como, por exemplo, o **Gradient Boosting** e o **Extreme Gradient Boost**, sendo o XG Boost mais otimizado.
 
 
 ### 2.3 Stacking (Empilhamento)
